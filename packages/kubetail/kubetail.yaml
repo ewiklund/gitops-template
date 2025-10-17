@@ -1,0 +1,12 @@
+apiVersion: packages.glasskube.dev/v1alpha1
+kind: ClusterPackage
+metadata:
+  creationTimestamp: null
+  name: kubetail
+spec:
+  packageInfo:
+    name: kubetail
+    repositoryName: glasskube
+    version: v0.8.4+2
+  suspend: false
+
