@@ -1,4 +1,4 @@
-apiVersion: argoproj.io/v1alpha1
+klundapiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: glasskube
@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: bootstrap/glasskube
-    repoURL: https://github.com/TODO/TODO # TODO put your own repo url here
+    repoURL: https://github.com/ewiklund/gitops-template # TODO put your own repo url here
     targetRevision: HEAD
   syncPolicy:
     syncOptions:
